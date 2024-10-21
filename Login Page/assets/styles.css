@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+p, label {
+    font-size: 18px;
+    color: white;
+
+}
+
+p, account {
+    margin-top: 10px;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.hero_section {
+    display: grid;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.hero_section  .background {
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.main_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;   
+}
+
+.input_box {
+    display: grid;
+    align-items: center;
+    height: 40px;
+    max-width: 360px;
+    width: 100%;
+    
+}
+
+.input_box input,
+.input_box button {
+    height: 100%;
+    outline: none;
+    border: none;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: 400;
+}
+
+.input_box input {
+    width: 100%;
+    padding: 15px 15px;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+.input_box button {
+    cursor: pointer;
+    color: #fff;
+    white-space: nowrap;
+    padding: 0 20px;
+    transition: all 0.3s ease;
+    padding: 15px;
+}
+
+.input_box button:hover {
+    background-color: #fff;
+    color: #0d6a81;
+}
+
+.input_username, .input_password {
+    margin-bottom: 20px;
+}
+
+
